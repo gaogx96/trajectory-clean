@@ -1,0 +1,26 @@
+{
+  "name": "trajectory-clean",
+  "description": "简洁直观的轨迹视图 — 按用户消息分组，显示 Token 消耗，适配所有主题",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  },
+  "scripts": {
+    "build": "echo 'no build needed'"
+  },
+  "license": "MIT"
+}
