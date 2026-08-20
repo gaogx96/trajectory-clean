@@ -1,0 +1,11 @@
+# trajectory-clean bundle patch
+# 将这个包添加到 web profile 的 package.json dsh.profile.bundles 列表中即可启用
+# 例如：
+#   "dsh": { "profile": { "bundles": [..., "trajectory-clean"] } }
+
+- id: trajectory-clean
+  name: trajectory-clean
+  apply: group
+  rules:
+    - order: 100
+      client: trajectory-clean
