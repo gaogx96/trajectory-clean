@@ -1,7 +1,7 @@
 {
   "name": "trajectory-clean",
-  "description": "简洁直观的轨迹视图 — 按用户消息分组，显示 Token 消耗，适配所有主题",
-  "version": "1.0.0",
+  "description": "简洁直观的轨迹视图 — 按用户消息分组，显示 Token 消耗，支持加载更早记录，适配所有主题",
+  "version": "1.0.1",
   "private": true,
   "type": "module",
   "main": "lib/index.js",
@@ -15,7 +15,7 @@
       "patch": "./cordis.patch.yml"
     },
     "client": {
-      "inject": [],
+      "inject": ["timer"],
       "platform": "web"
     }
   },
