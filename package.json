@@ -1,7 +1,7 @@
 {
   "name": "trajectory-clean",
   "description": "简洁直观的轨迹视图 — 按用户消息分组，显示 Token 消耗，差异化展示用户/模型/工具，支持加载更早记录，适配所有主题",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": true,
   "type": "module",
   "main": "lib/index.js",
